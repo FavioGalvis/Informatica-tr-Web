@@ -1,0 +1,208 @@
+/*
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+*/
+/* 
+    Created on : 15/02/2016, 03:58:13 PM
+    Author     : FGALVIS
+*/
+.team-member img {
+    box-shadow: 4px 4px 10px rgba(0, 0, 0, 0.5);
+}
+
+.btn-primary {
+    background-color: #263866;
+    border-color: #1D2B50;
+}
+.btn-primary:hover, .btn-primary:focus, .btn-primary:active, .btn-primary.active, .open .dropdown-toggle.btn-primary {
+    background-color: #3D589E;
+    border-color: #334C8C;
+}
+.btn-primary.disabled, .btn-primary[disabled], fieldset[disabled] .btn-primary, .btn-primary.disabled:hover, .btn-primary[disabled]:hover, fieldset[disabled] .btn-primary:hover, .btn-primary.disabled:focus, .btn-primary[disabled]:focus, fieldset[disabled] .btn-primary:focus, .btn-primary.disabled:active, .btn-primary[disabled]:active, fieldset[disabled] .btn-primary:active, .btn-primary.disabled.active, .btn-primary[disabled].active, fieldset[disabled] .btn-primary.active {
+    background-color: #263866;
+    border-color: #1D2B50;
+}
+
+.text-muted {
+    color: #444;
+}
+
+#owl-demo .item {
+  //background: #3fbf79;
+  padding: 30px 0px;
+  margin: 10px;
+  color: #333;
+  -webkit-border-radius: 3px;
+  -moz-border-radius: 3px;
+  border-radius: 3px;
+  text-align: center;
+}
+.customNavigation {
+  text-align: center;
+}
+//use styles below to disable ugly selection
+.customNavigation a {
+  -webkit-user-select: none;
+  -khtml-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+  -webkit-tap-highlight-color: rgba(0, 0, 0, 0);
+}
+
+.btn-xl {
+    background-color: #263866;
+    border-color: #1D2B50;
+    -webkit-box-shadow: -4px 3px 5px 0px rgba(50, 50, 50, 0.5);
+    -moz-box-shadow:    -4px 3px 5px 0px rgba(50, 50, 50, 0.5);
+    box-shadow:         -4px 3px 5px 0px rgba(50, 50, 50, 0.5);
+}
+
+.full_team {
+    background-size: contain;
+    -moz-background-size: contain;
+    -webkit-background-size: contain;
+    background-image: url("../img/team_full3.png");
+    overflow-x: visible;
+    overflow-y: visible;
+    background-repeat: no-repeat;
+}
+
+.text-primary {
+    color: #263866;
+}
+
+.btn-xl:hover, .btn-xl:focus, .btn-xl:active, .btn-xl.active, .open .dropdown-toggle.btn-xl {
+    color: #fff;
+    background-color: #3D589E;
+    border-color: #334C8C;
+}
+
+.btn-xl.disabled, .btn-xl[disabled], fieldset[disabled] .btn-xl, .btn-xl.disabled:hover, .btn-xl[disabled]:hover, fieldset[disabled] .btn-xl:hover, .btn-xl.disabled:focus, .btn-xl[disabled]:focus, fieldset[disabled] .btn-xl:focus, .btn-xl.disabled:active, .btn-xl[disabled]:active, fieldset[disabled] .btn-xl:active, .btn-xl.disabled.active, .btn-xl[disabled].active, fieldset[disabled] .btn-xl.active {
+    background-color: #3D589E;
+    border-color: #334C8C;
+}
+
+.navbar-default.navbar-shrink {
+    -webkit-box-shadow: 0px 4px 5px 0px rgba(50, 50, 50, 0.5);
+    -moz-box-shadow:    0px 4px 5px 0px rgba(50, 50, 50, 0.5);
+    box-shadow:         0px 4px 5px 0px rgba(50, 50, 50, 0.5);
+}
+
+.navbar-default .nav li a {
+    font-size: 12px;
+    -webkit-transition: all .3s;
+    -moz-transition: all .3s;
+    transition: all .3s;
+    text-shadow: 2px 0px 2px #222;
+}
+
+.navbar-default.navbar-shrink .nav li a {
+    font-size: 13px;
+}
+
+.navbar-default .navbar-nav>.active>a {
+    background-color: #3D589E;
+}
+
+.navbar-default .nav li a:hover, .navbar-default .nav li a:focus {
+    color: #4A6BC0;
+}
+
+.navbar-default .navbar-nav>.active>a:hover, .navbar-default .navbar-nav>.active>a:focus {
+    background-color: #3D589E;
+}
+
+.headvideo {
+    background-size: cover;
+    -moz-background-size: cover;
+    -webkit-background-size: cover;
+    //background-image: url("../img/logo_full.png");
+}
+
+.navbar-default .navbar-brand {
+    font-family: "Century Gothic";
+    font-weight: bold;
+    color: #3D589E;
+    text-shadow: 2px 0px 2px #222;
+}
+
+.navbar-default .navbar-brand:hover, .navbar-default .navbar-brand:focus, .navbar-default .navbar-brand:active, .navbar-default .navbar-brand.active {
+    color: #4A6BC0;
+    text-shadow: 2px 0px 2px #999;
+}
+
+.navbar-default .navbar-toggle:hover, .navbar-default .navbar-toggle:focus {
+    background-color: #3D589E;
+}
+
+video {
+    position: absolute; 
+    right: 0; 
+    bottom: 0;
+    min-width: 100%; 
+    min-height: 100%;
+    width: auto; 
+    height: auto; 
+    z-index: -100;
+    background-size: cover;
+    overflow: hidden;
+}
+.logo {
+  width: 10em;
+  height: 10em;
+  animation: bounceIn 0.6s;
+  transform: rotate(0deg) scale(1) translateZ(0);
+  transition: all 0.4s cubic-bezier(.8,1.8,.75,.75);
+  cursor: pointer;
+  width: 25%;
+  height: 25%;
+  margin-bottom: 25px;
+}
+
+.logo:hover {
+  transform: scale(1.1);
+}
+
+#portfolio .portfolio-item .portfolio-link .portfolio-hover {
+    background: rgba(23, 37, 82, .9);
+}
+
+.timeline>li .timeline-image {
+    background-color: #3D589E;
+}
+
+a {
+    color: #3D589E;
+}
+
+a:hover, a:focus, a:active, a.active {
+    color: #4A6BC0;
+}
+
+ul.social-buttons li a:hover, ul.social-buttons li a:focus, ul.social-buttons li a:active {
+    background-color: #4A6BC0;
+}
+
+@keyframes bounceIn {
+  0% {
+    opacity: 1;
+    transform: scale(.3);
+  } 
+
+  50% {
+    opacity: 1;
+    transform: scale(1.05);
+  } 
+
+  70% {
+    opacity: 1;
+    transform: scale(.9);
+  }
+
+  100% {
+    opacity: 1;
+    transform: scale(1);
+  }
+}
