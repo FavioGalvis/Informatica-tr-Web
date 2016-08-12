@@ -63,7 +63,7 @@ and open the template in the editor.
     background-size: contain;
     -moz-background-size: contain;
     -webkit-background-size: contain;
-    background-image: url("../img/team_full3.png");
+    background-image: url("../img/team_full4.png");
     overflow-x: visible;
     overflow-y: visible;
     background-repeat: no-repeat;
@@ -95,7 +95,7 @@ and open the template in the editor.
     -webkit-transition: all .3s;
     -moz-transition: all .3s;
     transition: all .3s;
-    text-shadow: 2px 0px 2px #222;
+    text-shadow: 1px 0px 0px #222;
 }
 
 .navbar-default.navbar-shrink .nav li a {
