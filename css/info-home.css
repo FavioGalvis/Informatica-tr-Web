@@ -30,7 +30,7 @@ and open the template in the editor.
 
 #owl-demo .item {
   //background: #3fbf79;
-  padding: 30px 0px;
+  //padding: 30px 0px;
   margin: 10px;
   color: #333;
   -webkit-border-radius: 3px;
@@ -63,7 +63,7 @@ and open the template in the editor.
     background-size: contain;
     -moz-background-size: contain;
     -webkit-background-size: contain;
-    background-image: url("../img/team_full4.png");
+    background-image: url("../img/team_full_55_w.png");
     overflow-x: visible;
     overflow-y: visible;
     background-repeat: no-repeat;
