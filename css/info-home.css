@@ -91,6 +91,7 @@ and open the template in the editor.
 }
 
 .navbar-default .nav li a {
+    font-family: 'Audiowide', cursive;
     font-size: 12px;
     -webkit-transition: all .3s;
     -moz-transition: all .3s;
@@ -115,6 +116,7 @@ and open the template in the editor.
 }
 
 .headvideo {
+    height: 100vh;
     background-size: cover;
     -moz-background-size: cover;
     -webkit-background-size: cover;
@@ -135,6 +137,37 @@ and open the template in the editor.
 
 .navbar-default .navbar-toggle:hover, .navbar-default .navbar-toggle:focus {
     background-color: #3D589E;
+}
+
+.navbar-bottom {
+    padding: 0px;
+    min-height: 20px;
+    background-image: url("../img/footer1.png");
+    background-repeat: repeat-x;
+    background-position-y: bottom;
+}
+.img-footer {
+    margin-left: auto;
+    margin-right: auto;
+}
+.navbar-default.navbar-bottom.navbar-shrink {
+    background-color: transparent;
+    padding: 0px;
+    position: absolute;
+    z-index: 900;
+}
+
+.navbar-default.navbar-bottom.navbar-shrink .container .col-md-4 img{
+    height: 0px;
+    opacity: 0;
+}
+
+.navbar-default.navbar-bottom .container .col-md-4 img{
+    height: 115px;
+    opacity: 1;
+    -webkit-transition: all 0.3s;
+    -moz-transition: all 0.3s;
+    transition: all 0.3s;
 }
 
 video {
