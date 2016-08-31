@@ -7,6 +7,74 @@ and open the template in the editor.
     Created on : 15/02/2016, 03:58:13 PM
     Author     : FGALVIS
 */
+.product-caracteristics{
+    color: #000;
+    font-family: 'Exo 2', sans-serif;
+}
+.product-caracteristics i{
+    color: #263866;
+}
+
+.team-member.product-logo .col-md-4.product-cuotes{
+    font-family: 'Exo 2', sans-serif;
+    font-style: italic;
+    font-size: x-large;
+    text-align: right;
+}
+.owl-item {
+    //border-radius: 10px;
+    //background-color: rgba(34,34,34,0.25);
+    //border: 7px solid rgba(255,255,255,0.25);
+}
+
+.navbar-logo{
+    max-height: 50px;
+    max-width: 50px;
+    -webkit-transition: all .3s;
+    -moz-transition: all .3s;
+    transition: all .3s;
+}
+
+.navbar-logo.navbar-logo-shrink{
+    max-height: 35px;
+    max-width: 35px;
+    -webkit-filter : brightness(2.5);
+    -moz-filter: brightness(2.5);
+    filter : brightness(2.5);
+}
+
+.owl-demo-2 .owl-wrapper-outer .owl-wrapper .owl-item{
+    border-radius: 0px;
+}
+
+.team-member.product-logo img{
+    background-color: rgba(61, 88, 158, 0.3);
+}
+.product-text{
+    font-family: 'Exo 2', sans-serif;
+    text-align: left;
+    color: #000;
+    text-shadow: 1px 1px 0px rgba(255,255,255,0.3);
+}
+.product-title{
+    font-family: 'Audiowide', cursive;
+    font-size: x-large;
+}
+
+h2.section-heading {
+    font-family: 'Audiowide', cursive;
+}
+h4.service-heading {
+    font-family: 'Exo 2', sans-serif;
+}
+p.text-muted {
+    font-family: 'Exo 2', sans-serif;
+}
+
+nav.navbar.navbar-default.navbar-fixed-bottom.navbar-bottom {
+    background-color: transparent;
+}
+
 .team-member img {
     box-shadow: 4px 4px 10px rgba(0, 0, 0, 0.5);
 }
@@ -64,6 +132,15 @@ and open the template in the editor.
     -moz-background-size: contain;
     -webkit-background-size: contain;
     background-image: url("../img/team_full_55_w.png");
+    overflow-x: visible;
+    overflow-y: visible;
+    background-repeat: no-repeat;
+}
+
+.full_team_2 {
+    background-size: contain;
+    -moz-background-size: contain;
+    -webkit-background-size: contain;
     overflow-x: visible;
     overflow-y: visible;
     background-repeat: no-repeat;
@@ -163,7 +240,7 @@ and open the template in the editor.
 }
 
 .navbar-default.navbar-bottom .container .col-md-4 img{
-    height: 115px;
+    height: 112px;
     opacity: 1;
     -webkit-transition: all 0.3s;
     -moz-transition: all 0.3s;

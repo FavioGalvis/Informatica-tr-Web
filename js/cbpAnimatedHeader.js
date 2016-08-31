@@ -13,6 +13,7 @@ var cbpAnimatedHeader = (function() {
 	var docElem = document.documentElement,
 		header = document.querySelector( '.navbar-top' ),
                 bottom = document.querySelector( '.navbar-bottom' ),
+                navbar_logo = document.querySelector( '.navbar-logo'),
 		didScroll = false,
 		changeHeaderOn = 300;
                 changeBottomOn = 30;
@@ -30,9 +31,11 @@ var cbpAnimatedHeader = (function() {
 		var sy = scrollY();
 		if ( sy >= changeHeaderOn ) {
 			classie.add( header, 'navbar-shrink' );
+                        classie.add( navbar_logo, 'navbar-logo-shrink');
 		}
 		else {
 			classie.remove( header, 'navbar-shrink' );
+                        classie.remove( navbar_logo, 'navbar-logo-shrink');
 		}
                 if ( sy >= changeBottomOn ) {
                         classie.add( bottom, 'navbar-shrink' );

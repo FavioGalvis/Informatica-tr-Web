@@ -276,7 +276,7 @@ header .intro-text .intro-lead-in {
 }
 
 header .intro-text .intro-heading {
-    font-family: Montserrat, "Helvetica Neue", Helvetica, Arial, sans-serif;
+    font-family: 'Audiowide', cursive;
     text-transform: uppercase;
     font-weight: 700;
     font-size: 50px;
@@ -317,7 +317,7 @@ section h2.section-heading {
 
 section h3.section-subheading {
     font-size: 16px;
-    font-family: "Droid Serif", "Helvetica Neue", Helvetica, Arial, sans-serif;
+    font-family: 'Exo 2', sans-serif;
     text-transform: none;
     font-style: italic;
     font-weight: 400;
@@ -423,8 +423,8 @@ section h3.section-subheading {
     bottom: 0;
     position: absolute;
     content: "";
-    width: 2px;
-    background-color: #f1f1f1;
+    width: 4px;
+    background-color: #bfbfbf;
     left: 40px;
     margin-left: -1.5px
 }
@@ -477,7 +477,7 @@ section h3.section-subheading {
     background-color: #fed136;
     color: #fff;
     border-radius: 100%;
-    border: 7px solid #f1f1f1;
+    border: 7px solid #bfbfbf;
     text-align: center
 }
 
