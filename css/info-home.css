@@ -52,7 +52,7 @@ and open the template in the editor.
 }
 .product-text{
     font-family: 'Exo 2', sans-serif;
-    text-align: left;
+    text-align: justify;
     color: #000;
     text-shadow: 1px 1px 0px rgba(255,255,255,0.3);
 }
@@ -131,7 +131,7 @@ nav.navbar.navbar-default.navbar-fixed-bottom.navbar-bottom {
     background-size: contain;
     -moz-background-size: contain;
     -webkit-background-size: contain;
-    background-image: url("../img/team_full_55_w.png");
+    background-image: url("../img/team_full_55_x.png");
     overflow-x: visible;
     overflow-y: visible;
     background-repeat: no-repeat;
@@ -223,6 +223,9 @@ nav.navbar.navbar-default.navbar-fixed-bottom.navbar-bottom {
     background-repeat: repeat-x;
     background-position-y: bottom;
 }
+@-moz-document url-prefix() {.navbar-bottom{
+    background-position: 0% 100%;
+}}
 .img-footer {
     margin-left: auto;
     margin-right: auto;

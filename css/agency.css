@@ -690,14 +690,16 @@ section#contact .text-danger {
 
 footer {
     padding: 25px 0;
-    text-align: center
+    text-align: center;
+    background-color: #222
 }
 
 footer span.copyright {
     line-height: 40px;
     font-family: Montserrat, "Helvetica Neue", Helvetica, Arial, sans-serif;
     text-transform: uppercase;
-    text-transform: none
+    text-transform: none;
+    color: #4A6BC0
 }
 
 footer ul.quicklinks {
@@ -714,13 +716,13 @@ ul.social-buttons {
 
 ul.social-buttons li a {
     display: block;
-    background-color: #222;
+    background-color: #fff;
     height: 40px;
     width: 40px;
     border-radius: 100%;
     font-size: 20px;
     line-height: 40px;
-    color: #fff;
+    color: #222;
     outline: 0;
     -webkit-transition: all .3s;
     -moz-transition: all .3s;
@@ -731,6 +733,17 @@ ul.social-buttons li a:hover,
 ul.social-buttons li a:focus,
 ul.social-buttons li a:active {
     background-color: #fed136
+}
+
+footer p.contact {
+    line-height: 25px;
+    font-family: Montserrat, "Helvetica Neue", Helvetica, Arial, sans-serif;
+    text-transform: uppercase;
+    text-transform: none;
+    text-align: left;
+    color: #fff;
+    font-size: 12px;
+    margin: 0px
 }
 
 .btn:focus,
